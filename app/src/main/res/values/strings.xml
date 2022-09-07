@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Simantan</string>
+    <string name="txt_simantan_desc">Sistem Informasi Pemantauan\ndan Penertiban</string>
+    <string name="txt_nip">NIP</string>
+    <string name="txt_password">Password</string>
+    <string name="et_nip_txt">Please input your NIP number...</string>
+    <string name="et_password_txt">Please input your password...</string>
+    <string name="txt_welcome">Welcome to</string>
+    <string name="txt_simantan">SIMANTAN</string>
+    <string name="txt_login">Login</string>
+    <string name="login_footer_txt">\u00a9 Balai Monitor SFR Kelas I Jakarta 2022</string>
+    <string name="image_view">Image View</string>
 </resources>

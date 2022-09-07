@@ -1,9 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/splash_bg"
     tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image_view"
+        android:layout_marginStart="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_50dp"
+        android:src="@drawable/ic_vector_welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tvSimantan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15dp"
+        android:contentDescription="@string/image_view"
+        android:src="@drawable/ic_vector_simantan"
+        app:layout_constraintStart_toStartOf="@+id/tvWelcome"
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcome" />
+
+    <TextView
+        android:id="@+id/tvSimantanDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_5dp"
+        android:paddingEnd="@dimen/_5dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:fontFamily="@font/inter_regular"
+        android:text="@string/txt_simantan_desc"
+        android:textSize="@dimen/_14sp"
+        app:layout_constraintStart_toStartOf="@+id/tvSimantan"
+        app:layout_constraintTop_toBottomOf="@+id/tvSimantan" />
+
+    <TextView
+        android:id="@+id/tvNip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_50dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/txt_nip"
+        android:textSize="@dimen/_16sp"
+        app:layout_constraintStart_toStartOf="@+id/tvSimantanDesc"
+        app:layout_constraintTop_toBottomOf="@+id/tvSimantanDesc" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etNip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:background="@drawable/inputext_bg"
+        android:fontFamily="@font/inter_regular"
+        android:hint="@string/et_nip_txt"
+        android:padding="@dimen/_15dp"
+        android:textSize="@dimen/_12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNip" />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="@string/txt_password"
+        android:textSize="@dimen/_16sp"
+        app:layout_constraintStart_toStartOf="@+id/etNip"
+        app:layout_constraintTop_toBottomOf="@+id/etNip" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_20dp"
+        android:background="@drawable/inputext_bg"
+        android:fontFamily="@font/inter_regular"
+        android:hint="@string/et_password_txt"
+        android:padding="@dimen/_15dp"
+        android:textSize="@dimen/_12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPassword" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_50dp"
+        android:fontFamily="@font/inter_medium"
+        android:padding="@dimen/_20dp"
+        android:textColor="@color/white"
+        android:text="@string/txt_login"
+        android:background="@drawable/button_login"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_footer_txt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="@dimen/_12sp"
+        android:layout_marginBottom="@dimen/_30dp"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
