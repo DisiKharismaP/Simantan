@@ -10,4 +10,6 @@
     <string name="txt_login">Login</string>
     <string name="login_footer_txt">\u00a9 Balai Monitor SFR Kelas I Jakarta 2022</string>
     <string name="image_view">Image View</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

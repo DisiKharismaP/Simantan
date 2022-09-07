@@ -5,9 +5,10 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import kotlinx.android.synthetic.main.activity_login.*
+import disiiy.khaper.simantan.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
+    private  lateinit var  loginBinding: ActivityLoginBinding
 
     companion object{
         fun getLaunchService(from : Context)= Intent(from, LoginActivity::class.java).apply {
@@ -17,10 +18,11 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        loginBinding = ActivityLoginBinding.inflate(layoutInflater)
+        setContentView(loginBinding.root)
         supportActionBar?.hide()
 
-        btnLogin.setOnClickListener(this)
+        loginBinding.btnLogin.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {

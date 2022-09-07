@@ -4,13 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/button_login.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable/ic_izinkelas.xml" value="0.2898148148148148" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable/ic_monitoring.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable/ic_penertiban.xml" value="0.2898148148148148" />
+        <entry key="app/src/main/res/drawable/ic_sims.xml" value="0.2898148148148148" />
         <entry key="app/src/main/res/drawable/inputext_bg.xml" value="0.2898148148148148" />
         <entry key="app/src/main/res/drawable/secondary_gradient.xml" value="0.2898148148148148" />
         <entry key="app/src/main/res/font/font_inter.xml" value="0.2898148148148148" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_izin_kelas.xml" value="0.1503623188405797" />
       </map>
     </option>
   </component>
