@@ -11,9 +11,9 @@
         android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/image_view"
         android:layout_marginStart="@dimen/_30dp"
         android:layout_marginTop="@dimen/_50dp"
+        android:contentDescription="@string/image_view"
         android:src="@drawable/ic_vector_welcome"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -32,11 +32,12 @@
         android:id="@+id/tvSimantanDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingStart="@dimen/_5dp"
-        android:paddingEnd="@dimen/_5dp"
         android:layout_marginTop="@dimen/_10dp"
         android:fontFamily="@font/inter_regular"
+        android:paddingStart="@dimen/_5dp"
+        android:paddingEnd="@dimen/_5dp"
         android:text="@string/txt_simantan_desc"
+        android:textColor="@color/text_color"
         android:textSize="@dimen/_14sp"
         app:layout_constraintStart_toStartOf="@+id/tvSimantan"
         app:layout_constraintTop_toBottomOf="@+id/tvSimantan" />
@@ -48,6 +49,7 @@
         android:layout_marginTop="@dimen/_50dp"
         android:fontFamily="@font/inter_medium"
         android:text="@string/txt_nip"
+        android:textColor="@color/text_color"
         android:textSize="@dimen/_16sp"
         app:layout_constraintStart_toStartOf="@+id/tvSimantanDesc"
         app:layout_constraintTop_toBottomOf="@+id/tvSimantanDesc" />
@@ -74,6 +76,7 @@
         android:layout_marginTop="@dimen/_20dp"
         android:fontFamily="@font/inter_medium"
         android:text="@string/txt_password"
+        android:textColor="@color/text_color"
         android:textSize="@dimen/_16sp"
         app:layout_constraintStart_toStartOf="@+id/etNip"
         app:layout_constraintTop_toBottomOf="@+id/etNip" />
@@ -99,12 +102,12 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/_30dp"
         android:layout_marginTop="@dimen/_50dp"
+        android:background="@drawable/button_login"
         android:fontFamily="@font/inter_medium"
         android:padding="@dimen/_20dp"
-        android:textColor="@color/white"
         android:text="@string/txt_login"
-        android:background="@drawable/button_login"
         android:textAllCaps="false"
+        android:textColor="@color/white"
         android:textSize="@dimen/_16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,11 +116,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_30dp"
         android:text="@string/login_footer_txt"
+        android:textSize="@dimen/_12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="@dimen/_12sp"
-        android:layout_marginBottom="@dimen/_30dp"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

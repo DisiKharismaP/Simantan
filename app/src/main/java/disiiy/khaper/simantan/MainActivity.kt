@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                     replaceFragment(MonitoringFragment.newInstance())
                 }
                 1 -> {
-                    replaceFragment(PenertibanFragment.newInstance()) //discovery
+                    replaceFragment(PenertibanFragment.newInstance())
                 }
                 2 -> {
                     replaceFragment(IzinKelasFragment.newInstance())
@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun replaceFragment(fragment: Fragment) {
         val fragmentTransition = supportFragmentManager.beginTransaction()
-        fragmentTransition.add(R.id.mainContainer,fragment).addToBackStack(Fragment::class.java.simpleName).commit()
+        fragmentTransition.replace(R.id.mainContainer,fragment).addToBackStack(Fragment::class.java.simpleName).commit()
     }
 
 }
