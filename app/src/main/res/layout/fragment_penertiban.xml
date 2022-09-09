@@ -4,36 +4,119 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".fragment.PenertibanFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:overScrollMode="never">
 
-        <ImageView
-            android:id="@+id/ivLogoSimantan"
-            android:layout_width="@dimen/_50dp"
-            android:layout_height="@dimen/_50dp"
-            android:layout_marginTop="@dimen/_20dp"
-            android:src="@drawable/ic_vector_logo"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/tvPenertiban"
-            android:layout_width="wrap_content"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_20dp"
-            android:fontFamily="@font/inter_medium"
-            android:text="@string/txt_penertiban"
-            android:textAlignment="center"
-            android:textColor="@color/text_color"
-            android:textSize="@dimen/_18sp"
-            app:layout_constraintEnd_toEndOf="@id/ivLogoSimantan"
-            app:layout_constraintStart_toStartOf="@id/ivLogoSimantan"
-            app:layout_constraintTop_toBottomOf="@id/ivLogoSimantan" />
+            android:paddingBottom="@dimen/_5dp">
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageView
+                android:id="@+id/ivLogoSimantan"
+                android:layout_width="@dimen/_50dp"
+                android:layout_height="@dimen/_50dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:contentDescription="@string/image_view"
+                android:src="@drawable/ic_vector_logo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvPenertiban"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20dp"
+                android:fontFamily="@font/inter_medium"
+                android:text="@string/txt_penertiban"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/_18sp"
+                app:layout_constraintEnd_toEndOf="@id/ivLogoSimantan"
+                app:layout_constraintStart_toStartOf="@id/ivLogoSimantan"
+                app:layout_constraintTop_toBottomOf="@id/ivLogoSimantan" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cdPenertiban"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200dp"
+                android:layout_marginHorizontal="@dimen/_30dp"
+                android:layout_marginTop="@dimen/_30dp"
+                android:background="@drawable/card_bg"
+                app:cardCornerRadius="@dimen/_20dp"
+                app:layout_constraintTop_toBottomOf="@id/tvPenertiban">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/image_view"
+                        android:src="@drawable/ic_penertiban" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20dp"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="@string/txt_penertiban_tindak_lanjut"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/_18sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cdPenanganan"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200dp"
+                android:layout_marginHorizontal="@dimen/_30dp"
+                android:layout_marginTop="@dimen/_30dp"
+                android:layout_marginBottom="@dimen/_5dp"
+                android:background="@drawable/card_bg"
+                app:cardCornerRadius="@dimen/_20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cdPenertiban"
+                tools:layout_editor_absoluteX="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/image_view"
+                        android:src="@drawable/ic_penanganan" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20dp"
+                        android:fontFamily="@font/inter_bold"
+                        android:text="@string/txt_penanganan_gangguan"
+                        android:textColor="@color/text_color"
+                        android:textSize="@dimen/_18sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
 
 </FrameLayout>

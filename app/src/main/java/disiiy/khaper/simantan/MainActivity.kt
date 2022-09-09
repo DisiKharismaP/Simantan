@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         addFragment(MonitoringFragment.newInstance())
         mainBinding.bottomNavigation.show(0)
         mainBinding.bottomNavigation.add(MeowBottomNavigation.Model(0, R.drawable.ic_monitoring))
-        mainBinding.bottomNavigation.add(MeowBottomNavigation.Model(1, R.drawable.ic_penertiban))
+        mainBinding.bottomNavigation.add(MeowBottomNavigation.Model(1, R.drawable.ic_nav_penertiban))
         mainBinding.bottomNavigation.add(MeowBottomNavigation.Model(2, R.drawable.ic_izinkelas))
         mainBinding.bottomNavigation.add(MeowBottomNavigation.Model(3, R.drawable.ic_sims))
         mainBinding.bottomNavigation.setOnClickMenuListener {
