@@ -84,7 +84,7 @@
                                 android:fontFamily="@font/inter_semibold"
                                 android:paddingVertical="@dimen/_20dp"
                                 android:paddingStart="@dimen/_20dp"
-                                android:text="@string/txt_penyelenggara"
+                                android:text="@string/txt_tv_analog"
                                 android:textColor="@color/text_color"
                                 android:textSize="@dimen/_16sp"
                                 tools:ignore="RtlSymmetry" />
