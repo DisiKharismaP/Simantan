@@ -49,4 +49,6 @@
     <string name="txt_corr_address">corr_address</string>
     <string name="txt_creation_date">creation_date</string>
     <string name="txt_new_data">New Data</string>
+    <string name="txt_perangkat_access_point_2_4_ghz">Perangkat Access Point 2,4 Ghz</string>
+    <string name="txt_perangkat_access_point_5_8_ghz">Perangkat Access Point 5,8 Ghz</string>
 </resources>

@@ -84,7 +84,7 @@
                                 android:fontFamily="@font/inter_semibold"
                                 android:paddingVertical="@dimen/_20dp"
                                 android:paddingStart="@dimen/_20dp"
-                                android:text="@string/txt_5_ghz"
+                                android:text="@string/txt_perangkat_access_point_5_8_ghz"
                                 android:textColor="@color/text_color"
                                 android:textSize="@dimen/_16sp"
                                 tools:ignore="RtlSymmetry" />
