@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activitymonitoring.RadioFmActivity">
+    tools:context=".activitypenertiban.PenangananActivity">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
                 android:layout_height="@dimen/_50dp"
                 android:layout_marginTop="@dimen/_20dp"
                 android:contentDescription="@string/image_view"
-                android:src="@drawable/ic_radio_fm"
+                android:src="@drawable/ic_penanganan"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_20dp"
                 android:fontFamily="@font/inter_medium"
-                android:text="@string/txt_radio_fm"
+                android:text="@string/txt_penanganan_gangguan"
                 android:textColor="@color/text_color"
                 android:textSize="@dimen/_18sp"
                 app:layout_constraintEnd_toEndOf="@id/ivLogoSimantan"

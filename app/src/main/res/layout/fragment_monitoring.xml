@@ -52,11 +52,14 @@
                 tools:ignore="UseCompoundDrawables">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cdTvDigital"
                     android:layout_width="@dimen/_155dp"
                     android:layout_height="match_parent"
                     android:layout_margin="@dimen/_5dp"
                     android:layout_weight="1"
                     android:background="@drawable/card_bg"
+                    android:clickable="true"
+                    android:focusable="true"
                     app:cardCornerRadius="@dimen/_20dp">
 
                     <LinearLayout
@@ -84,11 +87,14 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cdTvAnalog"
                     android:layout_width="@dimen/_155dp"
                     android:layout_height="match_parent"
                     android:layout_margin="@dimen/_5dp"
                     android:layout_weight="1"
                     android:background="@drawable/card_bg"
+                    android:clickable="true"
+                    android:focusable="true"
                     app:cardCornerRadius="@dimen/_20dp">
 
                     <LinearLayout
@@ -128,11 +134,14 @@
                 app:layout_constraintTop_toBottomOf="@id/llMonitoringRow1">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cdRadioFm"
                     android:layout_width="@dimen/_155dp"
                     android:layout_height="match_parent"
                     android:layout_margin="@dimen/_5dp"
                     android:layout_weight="1"
                     android:background="@drawable/card_bg"
+                    android:clickable="true"
+                    android:focusable="true"
                     app:cardCornerRadius="@dimen/_20dp">
 
                     <LinearLayout
@@ -161,11 +170,14 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cdRadioAm"
                     android:layout_width="@dimen/_155dp"
                     android:layout_height="match_parent"
                     android:layout_margin="@dimen/_5dp"
                     android:layout_weight="1"
                     android:background="@drawable/card_bg"
+                    android:clickable="true"
+                    android:focusable="true"
                     app:cardCornerRadius="@dimen/_20dp">
 
                     <LinearLayout
@@ -206,11 +218,14 @@
                 app:layout_constraintTop_toBottomOf="@id/llMonitoringRow2">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/cdMicrowaveLink"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_margin="@dimen/_5dp"
                     android:layout_weight="1"
                     android:background="@drawable/card_bg"
+                    android:clickable="true"
+                    android:focusable="true"
                     app:cardCornerRadius="@dimen/_20dp">
 
                     <LinearLayout
