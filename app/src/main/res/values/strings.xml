@@ -79,4 +79,13 @@
     <string name="txt_longitude_terganggu">longitude_terganggu</string>
     <string name="txt_keterangan">keterangan</string>
     <string name="txt_tanggal_selesai_aduan">tanggal_selesai_aduan</string>
+    <string name="txt_tanggal">tanggal</string>
+    <string name="txt_alamat_lokasi_perangkat_pemancar">alamat_lokasi_perangkat_pemancar</string>
+    <string name="txt_koor_perangkat_lantitude">koor_perangkat_lantitude</string>
+    <string name="txt_koor_perangkat_longitude">koor_perangkat_longitude</string>
+    <string name="txt_merk_perangkat">merk_perangkat</string>
+    <string name="txt_tipe_perangkat">tipe_perangkat</string>
+    <string name="txt_pic_nama">pic_nama</string>
+    <string name="txt_pic_no_tlp">pic_no_tlp</string>
+    <string name="txt_pic_email">pic_email</string>
 </resources>

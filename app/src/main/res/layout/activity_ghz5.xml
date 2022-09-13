@@ -159,7 +159,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_curr_lic_num"
+                                android:text="@string/txt_tanggal"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -199,7 +199,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_client_id"
+                                android:text="@string/txt_alamat_lokasi_perangkat_pemancar"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -239,7 +239,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_application_id"
+                                android:text="@string/txt_koor_perangkat_lantitude"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -279,7 +279,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_client_name"
+                                android:text="@string/txt_koor_perangkat_longitude"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -319,7 +319,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_freq"
+                                android:text="@string/txt_frekuensi"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -359,7 +359,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_subservice"
+                                android:text="@string/txt_merk_perangkat"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -399,7 +399,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_freq_pair"
+                                android:text="@string/txt_tipe_perangkat"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -439,7 +439,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_bwidht"
+                                android:text="@string/txt_pic_nama"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -479,7 +479,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_eq_mdl"
+                                android:text="@string/txt_pic_no_tlp"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -519,7 +519,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_stn_name"
+                                android:text="@string/txt_pic_email"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -542,315 +542,6 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="@dimen/_1dp"
                                 android:background="@color/line_color" />
-                        </LinearLayout>
-
-                        <!--row12-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="@dimen/_10dp"
-                            android:orientation="horizontal"
-                            android:paddingStart="@dimen/_20dp"
-                            android:paddingEnd="@dimen/_20dp">
-
-                            <TextView
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:fontFamily="@font/inter_bold"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_stn_addr"
-                                android:textColor="@color/text_color"
-                                tools:ignore="RtlSymmetry" />
-
-                            <TextView
-                                android:id="@+id/tvStnAddr"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
-                                tools:ignore="RtlSymmetry" />
-                        </LinearLayout>
-
-                        <!--Line-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="@dimen/_1dp"
-                                android:background="@color/line_color" />
-                        </LinearLayout>
-
-                        <!--row13-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="@dimen/_10dp"
-                            android:orientation="horizontal"
-                            android:paddingStart="@dimen/_20dp"
-                            android:paddingEnd="@dimen/_20dp">
-
-                            <TextView
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:fontFamily="@font/inter_bold"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_city"
-                                android:textColor="@color/text_color"
-                                tools:ignore="RtlSymmetry" />
-
-                            <TextView
-                                android:id="@+id/tvCity"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
-                                tools:ignore="RtlSymmetry" />
-                        </LinearLayout>
-
-                        <!--Line-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="@dimen/_1dp"
-                                android:background="@color/line_color" />
-                        </LinearLayout>
-
-                        <!--row14-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="@dimen/_10dp"
-                            android:orientation="horizontal"
-                            android:paddingStart="@dimen/_20dp"
-                            android:paddingEnd="@dimen/_20dp">
-
-                            <TextView
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:fontFamily="@font/inter_bold"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_district"
-                                android:textColor="@color/text_color"
-                                tools:ignore="RtlSymmetry,TooManyViews" />
-
-                            <TextView
-                                android:id="@+id/tvDistrict"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
-                                tools:ignore="RtlSymmetry" />
-                        </LinearLayout>
-
-                        <!--Line-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="@dimen/_1dp"
-                                android:background="@color/line_color" />
-                        </LinearLayout>
-
-                        <!--row15-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="@dimen/_10dp"
-                            android:orientation="horizontal"
-                            android:paddingStart="@dimen/_20dp"
-                            android:paddingEnd="@dimen/_20dp">
-
-                            <TextView
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:fontFamily="@font/inter_bold"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_province"
-                                android:textColor="@color/text_color"
-                                tools:ignore="RtlSymmetry" />
-
-                            <TextView
-                                android:id="@+id/tvProvince"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
-                                tools:ignore="RtlSymmetry" />
-                        </LinearLayout>
-
-                        <!--Line-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="@dimen/_1dp"
-                                android:background="@color/line_color" />
-                        </LinearLayout>
-
-                        <!--row16-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="@dimen/_10dp"
-                            android:orientation="horizontal"
-                            android:paddingStart="@dimen/_20dp"
-                            android:paddingEnd="@dimen/_20dp">
-
-                            <TextView
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:fontFamily="@font/inter_bold"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_link_id"
-                                android:textColor="@color/text_color"
-                                tools:ignore="RtlSymmetry" />
-
-                            <TextView
-                                android:id="@+id/tvLinkId"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
-                                tools:ignore="RtlSymmetry" />
-                        </LinearLayout>
-
-                        <!--Line-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="@dimen/_1dp"
-                                android:background="@color/line_color" />
-                        </LinearLayout>
-
-                        <!--row17-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="@dimen/_10dp"
-                            android:orientation="horizontal"
-                            android:paddingStart="@dimen/_20dp"
-                            android:paddingEnd="@dimen/_20dp">
-
-                            <TextView
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:fontFamily="@font/inter_bold"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_stasiun_lawan"
-                                android:textColor="@color/text_color"
-                                tools:ignore="RtlSymmetry" />
-
-                            <TextView
-                                android:id="@+id/tvStasiunLawan"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
-                                tools:ignore="RtlSymmetry" />
-                        </LinearLayout>
-
-                        <!--Line-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="@dimen/_1dp"
-                                android:background="@color/line_color" />
-                        </LinearLayout>
-
-                        <!--row18-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="@dimen/_10dp"
-                            android:orientation="horizontal"
-                            android:paddingStart="@dimen/_20dp"
-                            android:paddingEnd="@dimen/_20dp">
-
-                            <TextView
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:fontFamily="@font/inter_bold"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_corr_address"
-                                android:textColor="@color/text_color"
-                                tools:ignore="RtlSymmetry" />
-
-                            <TextView
-                                android:id="@+id/tvCorrAddress"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
-                                tools:ignore="RtlSymmetry" />
-                        </LinearLayout>
-
-                        <!--Line-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="@dimen/_1dp"
-                                android:background="@color/line_color" />
-                        </LinearLayout>
-
-                        <!--row19-->
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginVertical="@dimen/_10dp"
-                            android:orientation="horizontal"
-                            android:paddingStart="@dimen/_20dp"
-                            android:paddingEnd="@dimen/_20dp">
-
-                            <TextView
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:fontFamily="@font/inter_bold"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_creation_date"
-                                android:textColor="@color/text_color"
-                                tools:ignore="RtlSymmetry" />
-
-                            <TextView
-                                android:id="@+id/tvCreationDate"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
-                                tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
                     </LinearLayout>

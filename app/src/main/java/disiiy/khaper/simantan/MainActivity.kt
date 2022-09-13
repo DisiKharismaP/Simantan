@@ -12,7 +12,6 @@ import disiiy.khaper.simantan.fragment.MonitoringFragment
 import disiiy.khaper.simantan.fragment.PenertibanFragment
 import disiiy.khaper.simantan.fragment.SimsFragment
 
-
 class MainActivity : AppCompatActivity() {
     private  lateinit var  mainBinding: ActivityMainBinding
 

@@ -23,7 +23,7 @@
         <entry key="app/src/main/res/drawable/inputext_bg.xml" value="0.2898148148148148" />
         <entry key="app/src/main/res/drawable/secondary_gradient.xml" value="0.2898148148148148" />
         <entry key="app/src/main/res/font/font_inter.xml" value="0.2898148148148148" />
-        <entry key="app/src/main/res/layout/activity_ghz2.xml" value="0.16348522167487683" />
+        <entry key="app/src/main/res/layout/activity_ghz2.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_ghz5.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
