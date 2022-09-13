@@ -159,7 +159,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_curr_lic_num"
+                                android:text="@string/txt_upt"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -199,7 +199,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_client_id"
+                                android:text="@string/txt_no_isr"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -239,7 +239,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_application_id"
+                                android:text="@string/txt_no_surat_pengaduan"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -279,7 +279,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_client_name"
+                                android:text="@string/txt_tgl_surat_pengaduan"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -319,7 +319,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_freq"
+                                android:text="@string/txt_tgl_terima_surat_pengaduan"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -359,7 +359,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_subservice"
+                                android:text="@string/txt_tgl_spt_pengukuran_karasteristik_frekuensi_radio"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -399,7 +399,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_freq_pair"
+                                android:text="@string/txt_uraian_kasus"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -439,7 +439,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_bwidht"
+                                android:text="@string/txt_frekuensi_terganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -479,7 +479,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_eq_mdl"
+                                android:text="@string/txt_servis"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -519,7 +519,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_stn_name"
+                                android:text="@string/pihak_terganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -559,7 +559,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_stn_addr"
+                                android:text="@string/txt_pihak_pengganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -599,7 +599,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_city"
+                                android:text="@string/txt_latitude_pengganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -639,7 +639,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_district"
+                                android:text="@string/txt_longitude_pengganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry,TooManyViews" />
 
@@ -679,7 +679,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_province"
+                                android:text="@string/txt_latitude_terganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -719,7 +719,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_link_id"
+                                android:text="@string/txt_longitude_terganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -759,7 +759,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_stasiun_lawan"
+                                android:text="@string/txt_keterangan"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -799,7 +799,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_corr_address"
+                                android:text="@string/txt_tanggal_selesai_aduan"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -839,7 +839,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_creation_date"
+                                android:text="@string/txt_status"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 

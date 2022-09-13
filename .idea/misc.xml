@@ -28,8 +28,8 @@
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_microwave_link.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_penanganan.xml" value="0.16348522167487683" />
-        <entry key="app/src/main/res/layout/activity_penertiban.xml" value="0.16348522167487683" />
+        <entry key="app/src/main/res/layout/activity_penanganan.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_penertiban.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_radio_am.xml" value="0.16348522167487683" />
         <entry key="app/src/main/res/layout/activity_radio_fm.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.25" />
