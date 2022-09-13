@@ -35,7 +35,6 @@
     <string name="txt_application_id">application_id</string>
     <string name="txt_client_name">client_name</string>
     <string name="txt_freq">freq</string>
-    <string name="txt_subservice">subservice</string>
     <string name="txt_freq_pair">freq_pair</string>
     <string name="txt_bwidht">bwidht</string>
     <string name="txt_eq_mdl">eq_mdl</string>
