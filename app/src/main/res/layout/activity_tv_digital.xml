@@ -199,7 +199,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_client_id"
+                                android:text="@string/txt_logo"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -239,7 +239,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_application_id"
+                                android:text="@string/txt_alamat"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -279,7 +279,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_client_name"
+                                android:text="@string/txt_no_spt"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -319,7 +319,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_freq"
+                                android:text="@string/txt_tanggal_pelaksanaan"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -359,7 +359,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_subservice"
+                                android:text="@string/txt_penyelenggara_layanan"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -399,7 +399,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_freq_pair"
+                                android:text="@string/txt_kanal"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -439,7 +439,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_bwidht"
+                                android:text="@string/txt_status"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -479,7 +479,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_eq_mdl"
+                                android:text="@string/txt_frekuensi"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -519,7 +519,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_stn_name"
+                                android:text="@string/txt_level"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -559,7 +559,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_stn_addr"
+                                android:text="@string/txt_bandwidth"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -599,7 +599,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_city"
+                                android:text="@string/txt_code_rate"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -639,7 +639,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_district"
+                                android:text="@string/txt_guard_interval"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry,TooManyViews" />
 
@@ -679,7 +679,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_province"
+                                android:text="@string/txt_Program_penyelenggaraan_1"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -719,7 +719,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_link_id"
+                                android:text="@string/txt_Program_standar_1"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -759,7 +759,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_stasiun_lawan"
+                                android:text="@string/txt_Program_penyelenggaraan_2"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -799,7 +799,7 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_corr_address"
+                                android:text="@string/txt_Program_standar_2"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -839,12 +839,741 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_creation_date"
+                                android:text="@string/txt_Program_penyelenggaraan_3"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
                                 android:id="@+id/tvCreationDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_standar_3"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_penyelenggaraan_4"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_standar_4"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_penyelenggaraan_5"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_standar_5"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_penyelenggaraan_6"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_standar_6"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_penyelenggaraan_7"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_standar_7"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_penyelenggaraan_8"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_standar_8"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_penyelenggaraan_9"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_standar_9"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_penyelenggaraan_10"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_standar_10"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_penyelenggaraan_11"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_standar_11"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_penyelenggaraan_12"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_null"
+                                tools:ignore="RtlSymmetry" />
+                        </LinearLayout>
+                        <!--Line-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_1dp"
+                                android:background="@color/line_color" />
+                        </LinearLayout>
+
+                        <!--row20-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginVertical="@dimen/_10dp"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_20dp"
+                            android:paddingEnd="@dimen/_20dp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/inter_bold"
+                                android:paddingStart="@dimen/_10dp"
+                                android:text="@string/txt_Program_standar_12"
+                                android:textColor="@color/text_color"
+                                tools:ignore="RtlSymmetry" />
+
+                            <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"

@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.fragment.app.Fragment
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation
 import disiiy.khaper.simantan.databinding.ActivityMainBinding
@@ -12,7 +13,7 @@ import disiiy.khaper.simantan.fragment.MonitoringFragment
 import disiiy.khaper.simantan.fragment.PenertibanFragment
 import disiiy.khaper.simantan.fragment.SimsFragment
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), View.OnClickListener {
     private  lateinit var  mainBinding: ActivityMainBinding
 
     companion object{
@@ -53,6 +54,8 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        mainBinding.fbToDashboard.setOnClickListener(this)
+
     }
 
     private fun addFragment(fragment:Fragment) {
@@ -63,6 +66,14 @@ class MainActivity : AppCompatActivity() {
     private fun replaceFragment(fragment: Fragment) {
         val fragmentTransition = supportFragmentManager.beginTransaction()
         fragmentTransition.replace(R.id.mainContainer,fragment).addToBackStack(Fragment::class.java.simpleName).commit()
+    }
+
+    override fun onClick(v: View) {
+        when(v.id){
+            R.id.fbToDashboard -> startActivity(
+                DashboardActivity.getLaunchService(this)
+            )
+        }
     }
 
 }

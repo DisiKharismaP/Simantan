@@ -11,4 +11,8 @@
     <color name="background_color">#F8F9FA</color>
     <color name="text_color">#374866</color>
     <color name="line_color">#C6C6C6</color>
+
+    <color name="purple_color">#FF3B426C</color>
+    <color name="blue_color">#FF58BFE4</color>
+
 </resources>

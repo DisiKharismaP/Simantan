@@ -18,4 +18,7 @@
     <dimen name="_1dp">1dp</dimen>
     <dimen name="_45dp">45dp</dimen>
     <dimen name="_310dp">310dp</dimen>
+    <dimen name="_20sp">20sp</dimen>
+    <dimen name="_200sp">200sp</dimen>
+
 </resources>

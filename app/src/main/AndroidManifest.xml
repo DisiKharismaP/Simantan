@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Simantan">
         <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
             android:name=".activityizinkelas.Ghz5Activity"
             android:exported="false" />
         <activity
