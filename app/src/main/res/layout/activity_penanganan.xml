@@ -30,7 +30,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/tvSims"
+                android:id="@+id/tvPenanganan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_20dp"
@@ -50,7 +50,7 @@
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvSims">
+                app:layout_constraintTop_toBottomOf="@id/tvPenanganan">
 
                 <!-- Main Card-->
                 <androidx.cardview.widget.CardView
@@ -118,12 +118,12 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_id"
+                                android:text="@string/txt_no"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvSimsId"
+                                android:id="@+id/tvPenangananNo"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -164,7 +164,7 @@
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvCurrLicNum"
+                                android:id="@+id/tvPenangananUpt"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -204,7 +204,7 @@
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvClientId"
+                                android:id="@+id/tvPenangananNoIsr"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -244,7 +244,7 @@
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvApplication"
+                                android:id="@+id/tvPenangananNoSuratPengaduan"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -284,7 +284,7 @@
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvClientName"
+                                android:id="@+id/tvPenangananTglSuratPengaduan"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -324,7 +324,7 @@
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvFreq"
+                                android:id="@+id/tvPenangananTglTerimaSuratPengaduan"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -364,7 +364,7 @@
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvSubservice"
+                                android:id="@+id/tvPenangananTglSptPengukuranKarakteristikFrekuensiRadio"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -404,7 +404,7 @@
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvFreqPair"
+                                android:id="@+id/tvPenangananUraianKasus"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -444,7 +444,7 @@
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvBwidht"
+                                android:id="@+id/tvPenangananFrekuensiTerganggu"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -479,12 +479,12 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_servis"
+                                android:text="@string/pihak_terganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvEqMdl"
+                                android:id="@+id/tvPenangananPihakTerganggu"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -519,12 +519,12 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/pihak_terganggu"
+                                android:text="@string/txt_pihak_pengganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvStnName"
+                                android:id="@+id/tvPenangananPihakPengganggu"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -559,12 +559,12 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_pihak_pengganggu"
+                                android:text="@string/txt_latitude_pengganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvStnAddr"
+                                android:id="@+id/tvPenangananLatitudePengganggu"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -599,12 +599,12 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_latitude_pengganggu"
+                                android:text="@string/txt_longitude_pengganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvCity"
+                                android:id="@+id/tvPenangananLongitudePengganggu"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -639,12 +639,12 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_longitude_pengganggu"
+                                android:text="@string/txt_latitude_terganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry,TooManyViews" />
 
                             <TextView
-                                android:id="@+id/tvDistrict"
+                                android:id="@+id/tvPenangananLatitudeTerganggu"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -679,12 +679,12 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_latitude_terganggu"
+                                android:text="@string/txt_longitude_terganggu"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvProvince"
+                                android:id="@+id/tvPenangananLongitudeTerganggu"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -719,12 +719,12 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_longitude_terganggu"
+                                android:text="@string/txt_keterangan"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvLinkId"
+                                android:id="@+id/tvPenangananKeterangan"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -759,12 +759,12 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_keterangan"
+                                android:text="@string/txt_status"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvStasiunLawan"
+                                android:id="@+id/tvPenangananStatus"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -799,12 +799,12 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_tanggal_selesai_aduan"
+                                android:text="@string/txt_tgl_selesai_aduan"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvCorrAddress"
+                                android:id="@+id/tvPenangananTglSelesaiAduan"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
@@ -839,12 +839,12 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_status"
+                                android:text="@string/txt_creation_date"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvCreationDate"
+                                android:id="@+id/tvPenangananCreationDate"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"

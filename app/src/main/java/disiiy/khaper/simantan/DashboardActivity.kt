@@ -5,6 +5,7 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import com.jjoe64.graphview.GraphView
 import com.jjoe64.graphview.GridLabelRenderer
 import disiiy.khaper.simantan.databinding.ActivityDashboardBinding
@@ -12,7 +13,7 @@ import com.jjoe64.graphview.series.DataPoint
 import com.jjoe64.graphview.series.LineGraphSeries
 import com.jjoe64.graphview.helper.StaticLabelsFormatter
 
-class DashboardActivity : AppCompatActivity() {
+class DashboardActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var dashboardBinding: ActivityDashboardBinding
     private lateinit var lineGraphViewTv: GraphView
     private lateinit var lineGraphViewRadio: GraphView
@@ -33,6 +34,8 @@ class DashboardActivity : AppCompatActivity() {
         lineGraphViewTv = dashboardBinding.gvTelevisi
         lineGraphViewRadio = dashboardBinding.gvRadio
         lineGraphViewIzinKelas = dashboardBinding.gvIzinKelas
+
+        dashboardBinding.fbBack.setOnClickListener(this)
 
         //Data Televisi
         //Data Tv Analog
@@ -87,10 +90,10 @@ class DashboardActivity : AppCompatActivity() {
         seriestv2.color = Color.CYAN
         lineGraphViewTv.gridLabelRenderer.verticalLabelsSecondScaleColor = (Color.WHITE)
 
-        //label name
-        val staticLabelsFormatter = StaticLabelsFormatter(lineGraphViewTv)
-        staticLabelsFormatter.setHorizontalLabels(arrayOf("Jan", "", "Feb", "", "Mar", "", "Apr", "", "May", "", "Jun", "", "Jul", "", "Aug", "", "Sep", "", "Oct", "", "Nov", "", "Dec"))
-        lineGraphViewTv.gridLabelRenderer.labelFormatter = staticLabelsFormatter
+//        //label name
+//        val staticLabelsFormatter = StaticLabelsFormatter(lineGraphViewTv)
+//        staticLabelsFormatter.setHorizontalLabels(arrayOf("Jan", "", "Feb", "", "Mar", "", "Apr", "", "May", "", "Jun", "", "Jul", "", "Aug", "", "Sep", "", "Oct", "", "Nov", "", "Dec"))
+//        lineGraphViewTv.gridLabelRenderer.labelFormatter = staticLabelsFormatter
 
         //graphview Televisi
         lineGraphViewTv.animate()
@@ -154,10 +157,10 @@ class DashboardActivity : AppCompatActivity() {
         seriesradio2.color = Color.CYAN
         lineGraphViewRadio.gridLabelRenderer.verticalLabelsSecondScaleColor = (Color.WHITE)
 
-        //label name
-        val staticLabelsFormatterRadio = StaticLabelsFormatter(lineGraphViewRadio)
-        staticLabelsFormatterRadio.setHorizontalLabels(arrayOf("Jan", "", "Feb", "", "Mar", "", "Apr", "", "May", "", "Jun", "", "Jul", "", "Aug", "", "Sep", "", "Oct", "", "Nov", "", "Dec"))
-        lineGraphViewRadio.gridLabelRenderer.labelFormatter = staticLabelsFormatterRadio
+//        //label name
+//        val staticLabelsFormatterRadio = StaticLabelsFormatter(lineGraphViewRadio)
+//        staticLabelsFormatterRadio.setHorizontalLabels(arrayOf("Jan", "", "Feb", "", "Mar", "", "Apr", "", "May", "", "Jun", "", "Jul", "", "Aug", "", "Sep", "", "Oct", "", "Nov", "", "Dec"))
+//        lineGraphViewRadio.gridLabelRenderer.labelFormatter = staticLabelsFormatterRadio
 
         //graphview Radio
         lineGraphViewRadio.animate()
@@ -221,10 +224,10 @@ class DashboardActivity : AppCompatActivity() {
         series24ghz.color = Color.CYAN
         lineGraphViewIzinKelas.gridLabelRenderer.verticalLabelsSecondScaleColor = (Color.WHITE)
 
-        //label name
-        val staticLabelsFormatterIzinKelas = StaticLabelsFormatter(lineGraphViewIzinKelas)
-        staticLabelsFormatterIzinKelas.setHorizontalLabels(arrayOf("Jan", "", "Feb", "", "Mar", "", "Apr", "", "May", "", "Jun", "", "Jul", "", "Aug", "", "Sep", "", "Oct", "", "Nov", "", "Dec"))
-        lineGraphViewIzinKelas.gridLabelRenderer.labelFormatter = staticLabelsFormatterIzinKelas
+//        //label name
+//        val staticLabelsFormatterIzinKelas = StaticLabelsFormatter(lineGraphViewIzinKelas)
+//        staticLabelsFormatterIzinKelas.setHorizontalLabels(arrayOf("Jan", "", "Feb", "", "Mar", "", "Apr", "", "May", "", "Jun", "", "Jul", "", "Aug", "", "Sep", "", "Oct", "", "Nov", "", "Dec"))
+//        lineGraphViewIzinKelas.gridLabelRenderer.labelFormatter = staticLabelsFormatterIzinKelas
 
         //graphview Radio
         lineGraphViewIzinKelas.animate()
@@ -235,6 +238,14 @@ class DashboardActivity : AppCompatActivity() {
         lineGraphViewIzinKelas.viewport.isScrollable = true
         lineGraphViewIzinKelas.viewport.setMinimalViewport(0.0, 24.0, 0.0, 500.0)
 
+    }
+
+    override fun onClick(v: View) {
+        when(v.id){
+            R.id.fbBack -> startActivity(
+                MainActivity.getLaunchService(this)
+            )
+        }
     }
 
 }
