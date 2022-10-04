@@ -3,46 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="../../../../layout/custom_preview.xml" value="0.29739583333333336" />
-        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2984375" />
-        <entry key="app/src/main/res/drawable/bg_card_dashboard.xml" value="0.223828125" />
-        <entry key="app/src/main/res/drawable/button_login.xml" value="0.2898148148148148" />
-        <entry key="app/src/main/res/drawable/card_bg.xml" value="0.2984375" />
-        <entry key="app/src/main/res/drawable/ic_activity.xml" value="0.223828125" />
-        <entry key="app/src/main/res/drawable/ic_ghz.xml" value="0.223828125" />
-        <entry key="app/src/main/res/drawable/ic_izinkelas.xml" value="0.2898148148148148" />
-        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2898148148148148" />
-        <entry key="app/src/main/res/drawable/ic_microwave.xml" value="0.223828125" />
-        <entry key="app/src/main/res/drawable/ic_monitoring.xml" value="0.2898148148148148" />
-        <entry key="app/src/main/res/drawable/ic_penanganan.xml" value="0.223828125" />
-        <entry key="app/src/main/res/drawable/ic_penertiban.xml" value="0.2898148148148148" />
-        <entry key="app/src/main/res/drawable/ic_radio_am.xml" value="0.223828125" />
-        <entry key="app/src/main/res/drawable/ic_radio_fm.xml" value="0.223828125" />
-        <entry key="app/src/main/res/drawable/ic_sims.xml" value="0.2898148148148148" />
-        <entry key="app/src/main/res/drawable/ic_tv_analog.xml" value="0.223828125" />
-        <entry key="app/src/main/res/drawable/ic_tv_digital.xml" value="0.223828125" />
-        <entry key="app/src/main/res/drawable/ic_vector_logo.xml" value="0.223828125" />
-        <entry key="app/src/main/res/drawable/ic_vector_simantan.xml" value="0.223828125" />
-        <entry key="app/src/main/res/drawable/inputext_bg.xml" value="0.2898148148148148" />
-        <entry key="app/src/main/res/drawable/secondary_gradient.xml" value="0.2898148148148148" />
-        <entry key="app/src/main/res/font/font_inter.xml" value="0.2898148148148148" />
-        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_ghz2.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_ghz5.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
-        <entry key="app/src/main/res/layout/activity_microwave_link.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_penanganan.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_penertiban.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_radio_am.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_radio_fm.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_tv_analog.xml" value="0.335" />
-        <entry key="app/src/main/res/layout/activity_tv_digital.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_izin_kelas.xml" value="0.16845577072658677" />
-        <entry key="app/src/main/res/layout/fragment_monitoring.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/fragment_penertiban.xml" value="0.22554347826086957" />
-        <entry key="app/src/main/res/layout/fragment_sims.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_microwave_link.xml" value="0.26944444444444443" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1503623188405797" />
       </map>
     </option>
   </component>

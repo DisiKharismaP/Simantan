@@ -160,6 +160,7 @@
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_tanggal"
+                                android:layout_gravity="center"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
@@ -167,9 +168,10 @@
                                 android:id="@+id/tvMicrowaveTanggal"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:maxWidth="@dimen/_35dp"
                                 android:layout_weight="1"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="dekwndkwendkwnedjknwdkewndjkwdnewjkdnewjkdnwjkdnewjkdnjkdnewjkdnewjkdnewjkd"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
