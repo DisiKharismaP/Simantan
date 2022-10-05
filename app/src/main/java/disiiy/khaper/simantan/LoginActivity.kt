@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.EditText
+import android.widget.Toast
 import disiiy.khaper.simantan.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
@@ -22,14 +24,26 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         supportActionBar?.hide()
 
         loginBinding.btnLogin.setOnClickListener(this)
+
     }
 
     override fun onClick(v: View) {
         when(v.id){
-            R.id.btnLogin -> startActivity(
-                MainActivity.getLaunchService(this)
-            )
+            R.id.btnLogin -> Login()
         }
+    }
+
+    private fun Login() {
+        val nip = loginBinding.etNip.text.toString()
+        val password = loginBinding.etPassword.text.toString()
+
+        if (nip.isEmpty() || password.isEmpty()){
+            Toast.makeText(this, "NIP or Password cannot be empty", Toast.LENGTH_SHORT).show()
+        }else{
+            Toast.makeText(this, "Login Success", Toast.LENGTH_SHORT).show()
+            startActivity(MainActivity.getLaunchService(this))
+        }
+
     }
 
 }

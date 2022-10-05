@@ -54,7 +54,7 @@
         app:layout_constraintStart_toStartOf="@+id/tvSimantanDesc"
         app:layout_constraintTop_toBottomOf="@+id/tvSimantanDesc" />
 
-    <com.google.android.material.textfield.TextInputEditText
+    <EditText
         android:id="@+id/etNip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -63,6 +63,7 @@
         android:background="@drawable/inputext_bg"
         android:fontFamily="@font/inter_regular"
         android:hint="@string/et_nip_txt"
+        android:inputType="number"
         android:padding="@dimen/_15dp"
         android:textSize="@dimen/_12sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,7 +82,7 @@
         app:layout_constraintStart_toStartOf="@+id/etNip"
         app:layout_constraintTop_toBottomOf="@+id/etNip" />
 
-    <com.google.android.material.textfield.TextInputEditText
+    <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -90,6 +91,7 @@
         android:background="@drawable/inputext_bg"
         android:fontFamily="@font/inter_regular"
         android:hint="@string/et_password_txt"
+        android:inputType="textPassword"
         android:padding="@dimen/_15dp"
         android:textSize="@dimen/_12sp"
         app:layout_constraintEnd_toEndOf="parent"
