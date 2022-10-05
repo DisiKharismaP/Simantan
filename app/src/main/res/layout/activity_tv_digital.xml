@@ -114,6 +114,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -126,6 +127,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -155,6 +157,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -167,6 +170,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -195,6 +199,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -207,6 +212,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -235,6 +241,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -247,6 +254,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -275,6 +283,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -287,6 +296,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -315,6 +325,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -327,6 +338,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -355,6 +367,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -367,6 +380,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -395,6 +409,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -407,6 +422,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -435,6 +451,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -447,6 +464,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -475,6 +493,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -487,6 +506,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -515,6 +535,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -527,6 +548,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -555,6 +577,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -567,6 +590,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -595,6 +619,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -607,6 +632,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -635,6 +661,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -647,6 +674,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -675,6 +703,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -687,6 +716,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -715,6 +745,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -727,6 +758,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -755,6 +787,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -767,6 +800,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -795,6 +829,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -807,6 +842,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -835,6 +871,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -847,6 +884,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -875,6 +913,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -887,6 +926,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -914,6 +954,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -926,6 +967,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -953,6 +995,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -965,6 +1008,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -992,6 +1036,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1004,6 +1049,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1031,6 +1077,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1043,6 +1090,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1070,6 +1118,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1082,6 +1131,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1109,6 +1159,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1121,6 +1172,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1148,6 +1200,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1160,6 +1213,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1187,6 +1241,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1199,6 +1254,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1227,6 +1283,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1239,6 +1296,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1266,6 +1324,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1278,6 +1337,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1306,6 +1366,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1318,6 +1379,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1345,6 +1407,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1357,6 +1420,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1385,6 +1449,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1397,6 +1462,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1424,6 +1490,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1436,6 +1503,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1464,6 +1532,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1476,6 +1545,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />
@@ -1503,6 +1573,7 @@
                             <TextView
                                 android:layout_width="0dp"
                                 android:layout_height="wrap_content"
+                                android:layout_gravity="center"
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
@@ -1515,6 +1586,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
+                                android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
                                 android:text="@string/txt_null"
                                 tools:ignore="RtlSymmetry" />

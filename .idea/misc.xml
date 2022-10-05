@@ -3,10 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout/activity_ghz2.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_ghz5.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_microwave_link.xml" value="0.26944444444444443" />
+        <entry key="app/src/main/res/layout/activity_microwave_link.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_penanganan.xml" value="0.10098522167487685" />
+        <entry key="app/src/main/res/layout/activity_penertiban.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_radio_am.xml" value="0.10098522167487685" />
+        <entry key="app/src/main/res/layout/activity_radio_fm.xml" value="0.10098522167487685" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1503623188405797" />
+        <entry key="app/src/main/res/layout/activity_tv_analog.xml" value="0.10098522167487685" />
+        <entry key="app/src/main/res/layout/activity_tv_digital.xml" value="0.10098522167487685" />
+        <entry key="app/src/main/res/layout/fragment_sims.xml" value="0.10098522167487685" />
       </map>
     </option>
   </component>
