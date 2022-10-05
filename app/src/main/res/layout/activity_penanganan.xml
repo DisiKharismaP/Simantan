@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".activitypenertiban.PenangananActivity">
 
     <androidx.core.widget.NestedScrollView
@@ -130,7 +131,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="1"
                                 tools:ignore="RtlSymmetry" />
 
                         </LinearLayout>
@@ -173,7 +174,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Balai Monitor Kelas I DKI Jakarta"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -215,7 +216,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="02239488-000SU/0020202025"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -257,7 +258,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="13-0038-02-22"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -299,7 +300,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="16-02-2022"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -341,7 +342,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="16-02-2022"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -383,7 +384,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="18-02-2022"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -425,7 +426,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Ganggaun terjadi di area Kemayoran di transponder satu dan dua di frekuensi 2559 MHz. Sumber gangguan diperkirakan/diasumsikan berasal dari perangkat telekomunikasi yang berada Taman kemayoran Condominium Tower Cendana lantai 16.3 Jl. Benyamin Sueb&nbsp; Kb. Kosong Kec. kemayoran Jakarta Pusat."
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -467,7 +468,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="2565"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -509,7 +510,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="MEDIACITRA INDOSTAR, PT."
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -551,7 +552,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -593,7 +594,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -635,7 +636,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -677,7 +678,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="0"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -719,7 +720,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="108"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -761,7 +762,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -803,7 +804,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="1"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -845,7 +846,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="03-11-2022"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 

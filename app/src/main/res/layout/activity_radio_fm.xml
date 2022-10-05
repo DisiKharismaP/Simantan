@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".activitymonitoring.RadioFmActivity">
 
     <androidx.core.widget.NestedScrollView
@@ -129,7 +130,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="2"
                                 tools:ignore="RtlSymmetry" />
 
                         </LinearLayout>
@@ -172,7 +173,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Prambors Radio"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -214,7 +215,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Jakarta Selatan"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -245,18 +246,18 @@
                                 android:layout_weight="1"
                                 android:fontFamily="@font/inter_bold"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_frekuensi_pemancar_mhz"
+                                android:text="@string/txt_frekuensi_terukur_mhz"
                                 android:textColor="@color/text_color"
                                 tools:ignore="RtlSymmetry" />
 
                             <TextView
-                                android:id="@+id/tvRadioFmFrekPemancarMhz"
+                                android:id="@+id/tvRadioFmFrekTerukurMhz"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="102.2"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -298,7 +299,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Jakarta Selatan"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -340,7 +341,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Jakarta Selatan"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -382,7 +383,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="DKI Jakarta"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -424,7 +425,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="12903712973213021032"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -466,7 +467,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="22-09-21"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -508,7 +509,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Cilandak"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -550,7 +551,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="7, Jl. RS. Fatmawati Raya No.7, RT.6/RW.3, Cilandak Bar., Kec. Cilandak, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -592,7 +593,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="356278.27891"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -634,7 +635,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="5678931033123"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -676,7 +677,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="2022-10-03 07:56:23"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 

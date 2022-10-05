@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".activitymonitoring.TvDigitalActivity">
 
     <androidx.core.widget.NestedScrollView
@@ -129,7 +130,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="1"
                                 tools:ignore="RtlSymmetry" />
 
                         </LinearLayout>
@@ -172,7 +173,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -214,7 +215,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="326/Balmon.31/KP.01.06/08/2022"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -256,7 +257,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="2022-08-09"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -298,7 +299,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="LEMBAGA PENYIARAN PUBLIK TELEVISI REPUBLIK INDONESIA (STASIUN TRANSMISI TVRI GUNUNG TELA)"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -340,7 +341,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="38"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -382,7 +383,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="ON AIR"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -424,7 +425,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="610"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -466,7 +467,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-39,81"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -508,7 +509,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="7,673"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -550,7 +551,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="4/5"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -592,7 +593,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="1/16"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -634,7 +635,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="TVRI JABAR"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -676,7 +677,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="HD"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -718,7 +719,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="TVRI JABAR"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -760,7 +761,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="HD"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -802,7 +803,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="TVRI 3"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -844,7 +845,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="HD"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -886,7 +887,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="TVRI SPORT"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -928,7 +929,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="HD"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -969,7 +970,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="SERVICE 2"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -1010,7 +1011,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="HD"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -1051,7 +1052,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -1092,7 +1093,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -1133,7 +1134,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -1174,7 +1175,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -1215,7 +1216,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -1256,7 +1257,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -1298,7 +1299,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -1339,7 +1340,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -1381,7 +1382,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -1422,7 +1423,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -1464,7 +1465,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -1505,7 +1506,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -1547,7 +1548,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
                         <!--Line-->
@@ -1588,7 +1589,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 

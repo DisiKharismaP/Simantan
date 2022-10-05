@@ -14,5 +14,6 @@
 
     <color name="purple_color">#FF3B426C</color>
     <color name="blue_color">#FF58BFE4</color>
+    <color name="greylight_color">#C1C1C1</color>
 
 </resources>

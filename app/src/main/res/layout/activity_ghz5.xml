@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".activityizinkelas.Ghz5Activity">
 
     <androidx.core.widget.NestedScrollView
@@ -130,7 +131,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="1"
                                 tools:ignore="RtlSymmetry" />
 
                         </LinearLayout>
@@ -173,7 +174,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="21-03-2022"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -215,7 +216,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Bukit Rivaria Sawangan Blok C-5, No.11, Sawangan, Depok"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -257,7 +258,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-6,412,887"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -299,7 +300,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="10,676,247"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -341,7 +342,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="5620"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -383,7 +384,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Ubiquiti Networks"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -425,7 +426,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="PowerBeam M5"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -467,7 +468,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -509,7 +510,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -551,7 +552,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 

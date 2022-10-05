@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background_color"
     tools:context=".activitypenertiban.PenertibanActivity">
 
     <androidx.core.widget.NestedScrollView
@@ -129,7 +130,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="1"
                                 tools:ignore="RtlSymmetry" />
 
                         </LinearLayout>
@@ -172,7 +173,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -214,7 +215,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="PT. JISS INDONESIA SEJAHTERA"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -256,7 +257,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="331,7"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -298,7 +299,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Point to Point"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -340,7 +341,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="BERGERAK DARAT"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -382,7 +383,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Tidak Memiliki ISR"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -424,7 +425,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="KODYA JAKARTA BARAT"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -466,7 +467,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Berita Acara Penghentian"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -508,7 +509,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Off Air"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -550,7 +551,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="22-03-2022"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -592,7 +593,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -634,7 +635,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="03/Balmon.31/SP.03.03/03/2022"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -676,7 +677,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="22-03-2022"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -718,7 +719,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="Teguran Tertulis, Penghentian Pancaran"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 

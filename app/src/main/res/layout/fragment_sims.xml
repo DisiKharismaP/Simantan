@@ -40,6 +40,21 @@
                 app:layout_constraintStart_toStartOf="@id/ivLogoSimantan"
                 app:layout_constraintTop_toBottomOf="@id/ivLogoSimantan" />
 
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/svSims"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45dp"
+                android:layout_marginStart="@dimen/_20dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginEnd="@dimen/_20dp"
+                android:background="@drawable/bg_search"
+                app:iconifiedByDefault="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvSims"
+                app:queryBackground="@android:color/transparent"
+                app:queryHint="Search by Curr Lic Num" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -48,7 +63,7 @@
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvSims">
+                app:layout_constraintTop_toBottomOf="@id/svSims">
 
                 <!-- Main Card-->
                 <androidx.cardview.widget.CardView
@@ -127,7 +142,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="1"
                                 tools:ignore="RtlSymmetry" />
 
                         </LinearLayout>
@@ -170,7 +185,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="01661802-000SU/2620132014"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -212,7 +227,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="100604"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -254,7 +269,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="00439092013"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -296,7 +311,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="SMARTFREN TELECOM, TBK. PT"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -338,7 +353,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="13171"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -380,7 +395,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="PP"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -422,7 +437,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="12905"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -464,7 +479,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="28000"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -506,7 +521,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="SR10_S340_C28_13GHZ"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -548,7 +563,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="8/ZTE_0461 JKT_08N341 KAMPUNG IRIAN"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -590,7 +605,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="KP IRIAN RT 001/007 DESA KEBALEN KECAMATAN BABELAN KABUPATEN BEKASI PROVINSI JAWA BARAT"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -632,7 +647,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="107.02861111"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -674,7 +689,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-6.19722222"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -716,7 +731,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="BABELAN"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -758,7 +773,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="BEKASI"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -800,7 +815,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="JAWA BARAT"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -842,7 +857,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="10632638"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -884,7 +899,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="-"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
@@ -926,7 +941,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="@string/txt_null"
+                                android:text="JL. H. AGUS SALIM NO. 45MENTENG KOTA ADMINISTRASI JAKARTA PUSAT DKI JAKARTA 10340"
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 
