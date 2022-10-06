@@ -43,6 +43,21 @@
                 app:layout_constraintStart_toStartOf="@id/ivLogoSimantan"
                 app:layout_constraintTop_toBottomOf="@id/ivLogoSimantan" />
 
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/svRadioAm"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45dp"
+                android:layout_marginStart="@dimen/_20dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginEnd="@dimen/_20dp"
+                android:background="@drawable/bg_search"
+                app:iconifiedByDefault="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvRadioAm"
+                app:queryBackground="@android:color/transparent"
+                app:queryHint="Search by Curr Lic Num" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,7 +66,7 @@
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvRadioAm">
+                app:layout_constraintTop_toBottomOf="@id/svRadioAm">
 
                 <!-- Main Card-->
                 <androidx.cardview.widget.CardView

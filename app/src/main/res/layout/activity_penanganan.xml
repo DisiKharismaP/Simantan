@@ -43,6 +43,21 @@
                 app:layout_constraintStart_toStartOf="@id/ivLogoSimantan"
                 app:layout_constraintTop_toBottomOf="@id/ivLogoSimantan" />
 
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/svPenanganan"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45dp"
+                android:layout_marginStart="@dimen/_20dp"
+                android:layout_marginTop="@dimen/_20dp"
+                android:layout_marginEnd="@dimen/_20dp"
+                android:background="@drawable/bg_search"
+                app:iconifiedByDefault="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvPenanganan"
+                app:queryBackground="@android:color/transparent"
+                app:queryHint="Search by Curr Lic Num" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -51,7 +66,7 @@
                 android:orientation="vertical"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tvPenanganan">
+                app:layout_constraintTop_toBottomOf="@id/svPenanganan">
 
                 <!-- Main Card-->
                 <androidx.cardview.widget.CardView
@@ -426,7 +441,7 @@
                                 android:layout_weight="1"
                                 android:maxWidth="@dimen/_35dp"
                                 android:paddingStart="@dimen/_10dp"
-                                android:text="Ganggaun terjadi di area Kemayoran di transponder satu dan dua di frekuensi 2559 MHz. Sumber gangguan diperkirakan/diasumsikan berasal dari perangkat telekomunikasi yang berada Taman kemayoran Condominium Tower Cendana lantai 16.3 Jl. Benyamin Sueb&nbsp; Kb. Kosong Kec. kemayoran Jakarta Pusat."
+                                android:text="Ganggaun terjadi di area Kemayoran di transponder satu dan dua di frekuensi 2559 MHz. Sumber gangguan diperkirakan/diasumsikan berasal dari perangkat telekomunikasi yang berada Taman kemayoran Condominium Tower Cendana lantai 16.3 Jl. Benyamin Sueb dan nbsp; Kb. Kosong Kec. kemayoran Jakarta Pusat."
                                 tools:ignore="RtlSymmetry" />
                         </LinearLayout>
 

@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/drawable/bg_search.xml" value="0.223828125" />
         <entry key="app/src/main/res/drawable/button_login.xml" value="0.223828125" />
         <entry key="app/src/main/res/drawable/card_bg.xml" value="0.223828125" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.15116995073891626" />
         <entry key="app/src/main/res/layout/activity_ghz2.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_ghz5.xml" value="0.375" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.25" />
