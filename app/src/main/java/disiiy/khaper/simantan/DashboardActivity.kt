@@ -90,10 +90,10 @@ class DashboardActivity : AppCompatActivity(), View.OnClickListener {
         seriestv2.color = Color.CYAN
         lineGraphViewTv.gridLabelRenderer.verticalLabelsSecondScaleColor = (Color.WHITE)
 
-//        //label name
-//        val staticLabelsFormatter = StaticLabelsFormatter(lineGraphViewTv)
-//        staticLabelsFormatter.setHorizontalLabels(arrayOf("Jan", "", "Feb", "", "Mar", "", "Apr", "", "May", "", "Jun", "", "Jul", "", "Aug", "", "Sep", "", "Oct", "", "Nov", "", "Dec"))
-//        lineGraphViewTv.gridLabelRenderer.labelFormatter = staticLabelsFormatter
+        //label name
+        val staticLabelsFormatter = StaticLabelsFormatter(lineGraphViewTv)
+        staticLabelsFormatter.setHorizontalLabels(arrayOf("Jan","Feb","Mar","Apr","May","Jun"))
+        lineGraphViewTv.gridLabelRenderer.labelFormatter = staticLabelsFormatter
 
         //graphview Televisi
         lineGraphViewTv.animate()
@@ -157,10 +157,10 @@ class DashboardActivity : AppCompatActivity(), View.OnClickListener {
         seriesradio2.color = Color.CYAN
         lineGraphViewRadio.gridLabelRenderer.verticalLabelsSecondScaleColor = (Color.WHITE)
 
-//        //label name
-//        val staticLabelsFormatterRadio = StaticLabelsFormatter(lineGraphViewRadio)
-//        staticLabelsFormatterRadio.setHorizontalLabels(arrayOf("Jan", "", "Feb", "", "Mar", "", "Apr", "", "May", "", "Jun", "", "Jul", "", "Aug", "", "Sep", "", "Oct", "", "Nov", "", "Dec"))
-//        lineGraphViewRadio.gridLabelRenderer.labelFormatter = staticLabelsFormatterRadio
+        //label name
+        val staticLabelsFormatterRadio = StaticLabelsFormatter(lineGraphViewRadio)
+        staticLabelsFormatterRadio.setHorizontalLabels(arrayOf("Jan","Feb","Mar","Apr","May","Jun"))
+        lineGraphViewRadio.gridLabelRenderer.labelFormatter = staticLabelsFormatterRadio
 
         //graphview Radio
         lineGraphViewRadio.animate()
@@ -224,10 +224,10 @@ class DashboardActivity : AppCompatActivity(), View.OnClickListener {
         series24ghz.color = Color.CYAN
         lineGraphViewIzinKelas.gridLabelRenderer.verticalLabelsSecondScaleColor = (Color.WHITE)
 
-//        //label name
-//        val staticLabelsFormatterIzinKelas = StaticLabelsFormatter(lineGraphViewIzinKelas)
-//        staticLabelsFormatterIzinKelas.setHorizontalLabels(arrayOf("Jan", "", "Feb", "", "Mar", "", "Apr", "", "May", "", "Jun", "", "Jul", "", "Aug", "", "Sep", "", "Oct", "", "Nov", "", "Dec"))
-//        lineGraphViewIzinKelas.gridLabelRenderer.labelFormatter = staticLabelsFormatterIzinKelas
+        //label name
+        val staticLabelsFormatterIzinKelas = StaticLabelsFormatter(lineGraphViewIzinKelas)
+        staticLabelsFormatterIzinKelas.setHorizontalLabels(arrayOf("Jan","Feb","Mar","Apr","May","Jun"))
+        lineGraphViewIzinKelas.gridLabelRenderer.labelFormatter = staticLabelsFormatterIzinKelas
 
         //graphview Radio
         lineGraphViewIzinKelas.animate()
